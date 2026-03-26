@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Your Network</title>
+<style>
+  /* Reset & basic body */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #333;
+  }
+
+  /* Card container */
+  .container {
+    background: #fff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 1s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 35px;
+  }
+
+  /* Buttons */
+  .btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    width: 80%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-jazz { background: #ff4b2b; }
+  .btn-jazz:hover { background: #ff416c; }
+
+  .btn-zong { background: #1f4037; background: linear-gradient(to right, #99f2c8, #1f4037); color: #fff; }
+  .btn-zong:hover { opacity: 0.9; }
+
+  .btn-telenor { background: #00c6ff; background: linear-gradient(to right, #0072ff, #00c6ff); color: #fff; }
+  .btn-telenor:hover { opacity: 0.9; }
+
+  .fallback {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .fallback a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .fallback a:hover {
+    text-decoration: underline;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>📱 Choose Your Network</h1>
+  <p>Select your SIM provider to continue with the best offer</p>
+  
+  <a class="btn btn-jazz" href="https://www.orientationdisk.wiki/click?offer_id=35963&pub_id=287219&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE" target="_blank">Jazz</a>
+  <a class="btn btn-zong" href="https://www.orientationdisk.wiki/click?offer_id=32980&pub_id=287219&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE" target="_blank">Zong</a>
+  <a class="btn btn-telenor" href="https://www.orientationdisk.wiki/click?offer_id=23783&pub_id=287219&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE" target="_blank">Telenor</a>
+  
+  <div class="fallback">
+    Not sure or on WiFi? <a href="https://www.orientationdisk.wiki/click?offer_id=33417&pub_id=287219&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE" target="_blank">Click here to continue</a>
+  </div>
+</div>
+
+</body>
+</html>
